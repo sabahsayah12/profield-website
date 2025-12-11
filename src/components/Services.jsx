@@ -43,7 +43,7 @@ export default function Services() {
                 </div>
 
                 <div className="grid" style={{
-                    gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+                    gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
                     gap: '2rem'
                 }}>
                     {services.map((service, index) => (

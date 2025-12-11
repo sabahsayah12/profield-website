@@ -16,12 +16,19 @@ export default function Header() {
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', fontSize: '1.5rem', fontWeight: '800', letterSpacing: '-0.02em', color: 'var(--color-primary)' }}>
                     <img src={logo} alt="Profield Logo" style={{ height: '40px', width: 'auto', clipPath: 'inset(2px)' }} />
                 </div>
-                <nav style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
+                <nav className="desktop-nav" style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
                     <a href="#home" style={{ fontWeight: 500, fontSize: '0.9rem' }}>Home</a>
                     <a href="#portfolio" style={{ fontWeight: 500, fontSize: '0.9rem' }}>Portfolio</a>
                     <a href="#contact" className="btn btn-primary" style={{ padding: '0.5rem 1.25rem' }}>Contact Us</a>
                 </nav>
             </div>
-        </header>
+            <style>{`
+                @media (max-width: 768px) {
+                    .desktop-nav {
+                        display: none !important;
+                    }
+                }
+            `}</style>
+        </header >
     )
 }

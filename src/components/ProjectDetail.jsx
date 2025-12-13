@@ -101,9 +101,9 @@ export default function ProjectDetail() {
             category: 'GRC Work',
             description: 'Premium GRC architectural details for luxury developments on Palm Jumeirah.',
             images: [
-                '/projects/palm-jumeirah/Screenshot 2025-12-11 at 4.23.51 PM.png',
-                '/projects/palm-jumeirah/Screenshot 2025-12-11 at 4.24.00 PM.png',
-                '/projects/palm-jumeirah/Screenshot 2025-12-11 at 4.24.16 PM.png'
+                '/projects/palm-jumeirah/Screenshot 2025-12-11 at 4.23.51 PM.jpg',
+                '/projects/palm-jumeirah/Screenshot 2025-12-11 at 4.24.00 PM.jpg',
+                '/projects/palm-jumeirah/Screenshot 2025-12-11 at 4.24.16 PM.jpg'
             ]
         },
         8: {
@@ -122,9 +122,9 @@ export default function ProjectDetail() {
             category: 'GRC Work',
             description: 'Custom-designed GRC seating elements for the Riyadh Metro project, combining functional durability with modern design.',
             images: [
-                '/projects/Riyadh-metro/6a987695-f980-407b-9d65-f9c1b8026bd5.JPG',
-                '/projects/Riyadh-metro/8036751e-a2fa-42f8-bb8a-b0606e389f51.JPG',
-                '/projects/Riyadh-metro/81766785-2dd5-4938-ab00-671225c81acf.JPG'
+                '/projects/Riyadh-metro/6a987695-f980-407b-9d65-f9c1b8026bd5.jpeg',
+                '/projects/Riyadh-metro/8036751e-a2fa-42f8-bb8a-b0606e389f51.jpeg',
+                '/projects/Riyadh-metro/81766785-2dd5-4938-ab00-671225c81acf.jpeg'
             ]
         },
         12: {

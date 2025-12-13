@@ -1,4 +1,5 @@
 import logo from '../assets/logo.png'
+import { Link } from 'react-router-dom'
 
 export default function Header() {
     return (
@@ -13,15 +14,16 @@ export default function Header() {
             zIndex: 50
         }}>
             <div className="container flex justify-between items-center" style={{ height: '80px' }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', fontSize: '1.5rem', fontWeight: '800', letterSpacing: '-0.02em', color: 'var(--color-primary)' }}>
+                <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
                     <img src={logo} alt="Profield Logo" style={{ height: '40px', width: 'auto', clipPath: 'inset(2px)' }} />
-                </div>
+                </Link>
                 <nav style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
-                    <a href="#home" style={{ fontWeight: 500, fontSize: '0.9rem' }}>Home</a>
-                    <a href="#portfolio" style={{ fontWeight: 500, fontSize: '0.9rem' }}>Portfolio</a>
-                    <a href="#contact" className="btn btn-primary" style={{ padding: '0.5rem 1.25rem' }}>Contact Us</a>
+                    <Link to="/#services" style={{ fontWeight: 500, fontSize: '0.9rem' }}>Services</Link>
+                    <Link to="/#portfolio" style={{ fontWeight: 500, fontSize: '0.9rem' }}>Portfolio</Link>
+                    <Link to="/#contact" className="btn btn-primary" style={{ padding: '0.5rem 1.25rem' }}>Contact Us</Link>
                 </nav>
             </div>
         </header>
     )
 }
+

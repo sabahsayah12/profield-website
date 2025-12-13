@@ -101,9 +101,9 @@ export default function ProjectDetail() {
             category: 'GRC Work',
             description: 'Premium GRC architectural details for luxury developments on Palm Jumeirah.',
             images: [
-                '/projects/palm-jumeirah/Screenshot 2025-12-11 at 4.23.51 PM.jpg',
-                '/projects/palm-jumeirah/Screenshot 2025-12-11 at 4.24.00 PM.jpg',
-                '/projects/palm-jumeirah/Screenshot 2025-12-11 at 4.24.16 PM.jpg'
+                '/projects/palm-jumeirah/palm-01.jpg',
+                '/projects/palm-jumeirah/palm-02.jpg',
+                '/projects/palm-jumeirah/palm-03.jpg'
             ]
         },
         8: {

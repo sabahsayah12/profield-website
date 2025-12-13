@@ -9,7 +9,7 @@ export default function Portfolio() {
         { id: 4, title: 'Jeddah Train Stations', category: 'Decorative Lighting', image: '/projects/jeddah-train/Screenshot 2025-12-11 at 3.51.45 PM.png' },
         { id: 5, title: 'Thumama Road Bridge', category: 'Infrastructure', image: '/projects/thumama-road/Screenshot 2025-12-11 at 4.20.23 PM.png' },
         { id: 6, title: 'DEWA Substations (Dubai)', category: 'GRC Work', image: '/projects/dewa-substations/Screenshot 2025-12-11 at 3.59.44 PM.png' },
-        { id: 7, title: 'Palm Jumeirah (Dubai)', category: 'GRC Work', image: '/projects/palm-jumeirah/Screenshot 2025-12-11 at 4.23.51 PM.jpg' },
+        { id: 7, title: 'Palm Jumeirah (Dubai)', category: 'GRC Work', image: '/projects/palm-jumeirah/palm-01.jpg' },
         { id: 8, title: 'King Khaled Road', category: 'Aluminum Cladding', image: '/projects/king-khaled/Screenshot 2025-12-11 at 4.05.03 PM.png' },
         { id: 11, title: 'Riyadh Metro Benches', category: 'GRC Work', image: '/projects/Riyadh-metro/6a987695-f980-407b-9d65-f9c1b8026bd5.jpeg' },
         { id: 12, title: 'Abi Bakr Al Siddiq Road', category: 'Aluminum Cladding', image: '/projects/Abi-Bakr/Screenshot 2025-12-11 at 4.06.11 PM.png' },

@@ -18,8 +18,8 @@ export default function Header() {
                     <img src={logo} alt="Profield Logo" style={{ height: '40px', width: 'auto', clipPath: 'inset(2px)' }} />
                 </Link>
                 <nav style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
-                    <Link to="/#services" style={{ fontWeight: 500, fontSize: '0.9rem' }}>Services</Link>
-                    <Link to="/#portfolio" style={{ fontWeight: 500, fontSize: '0.9rem' }}>Portfolio</Link>
+                    <Link to="/#services" className="nav-link-desktop" style={{ fontWeight: 500, fontSize: '0.9rem' }}>Services</Link>
+                    <Link to="/#portfolio" className="nav-link-desktop" style={{ fontWeight: 500, fontSize: '0.9rem' }}>Portfolio</Link>
                     <Link to="/#contact" className="btn btn-primary" style={{ padding: '0.5rem 1.25rem' }}>Contact Us</Link>
                 </nav>
             </div>

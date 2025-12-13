@@ -1,8 +1,11 @@
 :root {
   /* Brand Colors */
-  --color-primary: #0f172a; /* Deep Navy */
-  --color-secondary: #334155; /* Slate */
-  --color-accent: #3b82f6; /* Bright Blue */
+  --color-primary: #0f172a;
+  /* Deep Navy */
+  --color-secondary: #334155;
+  /* Slate */
+  --color-accent: #3b82f6;
+  /* Bright Blue */
   --color-background: #ffffff;
   --color-text: #1e293b;
   --color-text-light: #64748b;
@@ -17,7 +20,7 @@
 
   /* Typography */
   --font-sans: 'Inter', sans-serif;
-  
+
   /* Shadows */
   --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
@@ -111,4 +114,11 @@ button {
 .btn-primary:hover {
   opacity: 0.9;
   transform: translateY(-1px);
+}
+
+/* Mobile: hide Services and Portfolio links, keep logo and Contact only */
+@media (max-width: 768px) {
+  .nav-link-desktop {
+    display: none !important;
+  }
 }

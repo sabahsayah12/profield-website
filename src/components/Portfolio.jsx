@@ -26,7 +26,7 @@ export default function Portfolio() {
                 </div>
 
                 <div className="grid" style={{
-                    gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
+                    gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
                     gap: '2rem'
                 }}>
                     {projects.map((project) => (

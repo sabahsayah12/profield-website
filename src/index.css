@@ -121,4 +121,9 @@ button {
   .nav-link-desktop {
     display: none !important;
   }
+
+  .text-h1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }

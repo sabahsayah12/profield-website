@@ -4,6 +4,15 @@ import { useLocation } from 'react-router-dom';
 export default function ScrollToAnchor() {
     const { pathname, hash, key } = useLocation();
 
+    // Disable browser's automatic scroll restoration
+    useEffect(() => {
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
+        // Scroll to top on initial page load
+        window.scrollTo(0, 0);
+    }, []);
+
     useEffect(() => {
         if (hash === '') {
             window.scrollTo(0, 0);

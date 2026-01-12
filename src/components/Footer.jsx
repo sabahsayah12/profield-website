@@ -23,7 +23,7 @@ export default function Footer() {
                 </div>
 
                 <p style={{ fontSize: '0.85rem', marginBottom: '0.5rem' }}>
-                    Al Malaz, Omar Bin Abdulaziz Road, Riyadh
+                    Omar Bin Abdulaziz Road, Riyadh
                 </p>
                 <p style={{ fontSize: '0.85rem' }}>
                     &copy; {new Date().getFullYear()} Profield Co. Ltd. All rights reserved.

@@ -29,7 +29,7 @@ export default function Contact() {
                     </div>
                     <div style={{ textAlign: 'center' }}>
                         <div style={{ fontSize: '0.9rem', color: '#94a3b8', marginBottom: '0.5rem' }}>Location</div>
-                        <div style={{ fontSize: '1.2rem', fontWeight: 600 }}>Al Malaz, Riyadh</div>
+                        <div style={{ fontSize: '1.2rem', fontWeight: 600 }}>Riyadh</div>
                     </div>
                 </div>
 

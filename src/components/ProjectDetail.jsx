@@ -50,8 +50,10 @@ export default function ProjectDetail() {
             description: 'Extensive GRP Cladding works focusing on durability and modern aesthetics for this major infrastructure project.',
             images: [
                 '/projects/king-salman/PHOTO-2025-11-29-14-15-31 2.jpg',
-                '/projects/king-salman/b24d408f-6e4b-4c1e-9409-ef6a92738553.JPG',
-                '/projects/king-salman/efff41fd-8d3e-4db3-9e26-b9debf5ed47d.JPG'
+                '/projects/king-salman/26e9aaa9-6488-4156-8d53-5317f96661ad.JPG',
+                '/projects/king-salman/4e21ecc2-59a3-42b0-b1f3-bf4d7d6dd1fa.JPG',
+                '/projects/king-salman/773212e1-0278-495f-921a-d2063b8c1fd7.JPG',
+                '/projects/king-salman/7812b367-de1e-44c8-9a45-ea30a05e092b.JPG'
             ]
         },
         3: {
